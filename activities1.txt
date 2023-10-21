@@ -1,0 +1,26 @@
+1) difference btw http-http/2?
+           HTTP-----> HYPERTEXT TRANSFER PROTOCOL
+
+        what WE USE HTTP IS-->we use fetch the data over the internet.
+        communication btw the server and clients exchange the message 
+HTTP---> the frist usable version was created by 1997 this version still using
+
+HTTP/2---> was created by 2015 and this is much faster than http
+http/2 is comes under the prioritizes of the loading content
+
+
+diff btw http,http/2
+
+multiplexing---->http is loads resource one after other,if any one resource collapse
+anthor all  recource will block
+           ----->hhtp/2 is totally different ,it able to use single TCP connect to set 
+           multiple stream of data at onces
+sever push
+
+this approach is not partical for modern web page
+hhtp/2 sources the problem by allow the push content to a client before the client ask            
+
+head comparison 
+
+it small file loads both are same hhtp/2 is much advanced method by elminating a few bytes 
+from every http pack

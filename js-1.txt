@@ -1,0 +1,42 @@
+write about the object and its internal representation
+ 
+ * object
+ object is a collection pf properties and method is an association btw a name (key) and a value.
+ 
+  realtime example object
+
+ * object--> is a car    
+ * properties are  like --->color,model,weight,price ,etc....   
+ * method (is thing can do like) --> like stop,slow ,breake,fast etc....
+
+
+ * internal representation
+  let car{         // properties
+    color:"black"
+    weight:"700kg"
+    price:700000
+    buy(){             // for method
+        console.log("to to the list")
+    }
+
+
+  }
+console.log(car);  // how to acesses the value  
+output is 
+black
+700kg
+700000
+
+console.log(car.weight); // how to acesses the single value
+output is 
+700kg
+
+car.buy( )-------- method calll....
+
+
+ * and we accesses like [] also
+ for example
+ let worker{
+    work_exp:6 
+ }
+ console.log([work_exp]); if we use properties like two words we c an use [ ]..
